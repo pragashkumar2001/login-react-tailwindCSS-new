@@ -62,20 +62,20 @@ export function Login() {
         alt="Background"
       />
       <div className="w-full flex justify-center">
+        <img
+          src={LoginFormImg1}
+          className="absolute lg:bottom-[180px] lg:right-[120px] md:bottom-[160px] md:right-[160px] sm:bottom-[160px] sm:right-[0px]"
+          alt="Background"
+        />
+        <img
+          src={LoginFormImg2}
+          className="absolute lg:top-[100px] lg:left-[500px] md:top-[120px] md:left-[160px] sm:top-[120px] sm:left-[0px]"
+          alt="Background"
+        />
         <div
           className="lg:w-[560px] lg:h-[580px] px-10 py-20 rounded-3xl bg-white border border-gray-100 relative
           lg:ml-[380px] lg:mb-20"
         >
-          <img
-            src={LoginFormImg1}
-            className="absolute bottom-[100px] right-[-185px]"
-            alt="Background"
-          />
-          <img
-            src={LoginFormImg2}
-            className="absolute top-[40px] left-[-185px]"
-            alt="Background"
-          />
           <h1 className="text-5xl text-center font-semibold">Admin Login</h1>
           <div className="mt-8">
             <div className="flex flex-col">
