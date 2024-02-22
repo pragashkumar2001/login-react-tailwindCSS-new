@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Vector from '../images/Vector.svg'
+import LoginFormBgImg from '../images/LoginFormBgImg.svg';
 
 export function Login() {
   const [email, setEmail] = useState('');
@@ -13,12 +13,12 @@ export function Login() {
     <div className="relative flex w-full h-screen">
       {/* Image positioned at the bottom-left corner */}
       <img
-        src="../../../images/Vector.svg"
+        src={LoginFormBgImg}
         className="absolute bottom-0 left-0"
-        alt="Background Image"
+        alt="Background"
       />
       <div className="w-full flex items-center justify-center">
-        <div className=" w-11/12 max-w-[500px] px-10 py-20 rounded-3xl bg-white border border-gray-100 relative">
+        <div className="w-11/12 max-w-[500px] px-10 py-20 rounded-3xl bg-white border border-gray-100 relative">
           <h1 className="text-5xl text-center font-semibold">Admin Login</h1>
           <div className="mt-8">
             <div className="flex flex-col">
@@ -27,7 +27,7 @@ export function Login() {
                 onChange={(e) => setEmail(e.target.value)}
                 className="w-full border-2 border-gray-100 rounded-xl p-4 mt-1 bg-transparent"
                 placeholder="Enter Username"
-                required 
+                required
               />
             </div>
             <div className="flex flex-col mt-4">
