@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Vector from '../../images/Vector.svg'
+import Vector from '../images/Vector.svg'
 
 export function Login() {
   const [email, setEmail] = useState('');
@@ -17,9 +17,6 @@ export function Login() {
         className="absolute bottom-0 left-0"
         alt="Background Image"
       />
-      <div className=''>
-        <img src={Vector} />
-      </div>
       <div className="w-full flex items-center justify-center">
         <div className=" w-11/12 max-w-[500px] px-10 py-20 rounded-3xl bg-white border border-gray-100 relative">
           <h1 className="text-5xl text-center font-semibold">Admin Login</h1>
